@@ -7,6 +7,7 @@ export default () => {
 		uri: '/api',
 		headers: {
 			'Time-Zone': userTimeZone,
+			'Content-Type': 'application/json',
 		},
 	})
 }
